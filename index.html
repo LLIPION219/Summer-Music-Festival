@@ -1,69 +1,103 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Літній Музичний Фестиваль 2025 – найяскравіша подія року з концертами, їжею та розвагами!">
-  <meta name="keywords" content="фестиваль, музика, концерт, літо 2025, квитки, розваги">
-  <meta property="og:title" content="Літній Музичний Фестиваль 2025">
-  <meta property="og:description" content="Придбай квитки на яскраву подію літа – музика, їжа, позитив і емоції!">
-  <meta property="og:image" content="images/banner.jpg">
-  <meta property="og:url" content="https://yourusername.github.io/musicfest2025">
-  <title>Літній Музичний Фестиваль 2025</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Концертний Фестиваль 2025 | Відчуй Магію Музики</title>
+  <meta name="description" content="Найгарячіший концертний фестиваль 2025 року — сцена, музиканти, драйв і незабутні емоції! Забронюй квитки вже сьогодні." />
+  <meta name="keywords" content="концерт, фестиваль, музика, квитки, шоу, подія, 2025" />
 </head>
 <body>
-  <header>
-    <h1 class="fade-in">Літній Музичний Фестиваль 2025</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">Про фестиваль</a></li>
-        <li><a href="#gallery">Галерея</a></li>
-        <li><a href="#tickets">Квитки</a></li>
-        <li><a href="#contact">Контакти</a></li>
-      </ul>
-    </nav>
+  <a href="#main-content" class="skip-link">Перейти до основного вмісту</a>
+
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Концертний Фестиваль 2025</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about">Про подію</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#tickets">Квитки</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="about">
-      <h2>Про фестиваль</h2>
-      <p>Приходьте на грандіозний музичний фестиваль під відкритим небом! На вас чекають найпопулярніші гурти, яскрава атмосфера, зона фуд-корту та море вражень!</p>
-    </section>
-
-    <section id="gallery">
-      <h2>Галерея</h2>
-      <div class="gallery">
-        <img src="images/photo1.jpg" alt="Сцена фестивалю" loading="lazy">
-        <img src="images/photo2.jpg" alt="Глядачі на фестивалі" loading="lazy">
-        <img src="images/photo3.jpg" alt="Музиканти на сцені" loading="lazy">
+  <main id="main-content">
+    <section id="hero" class="hero">
+      <div class="container">
+        <h2 class="hero-title animate-fade-in">Відчуй Магію Музики</h2>
+        <p class="hero-text animate-fade-in delay-1">
+          Найгарячіший концертний фестиваль 2025 року. Музика, драйв і неймовірні емоції у твоєму місті!
+        </p>
+        <a href="#tickets" class="btn btn-primary animate-fade-in delay-2">Забронювати квитки</a>
       </div>
     </section>
 
-    <section id="tickets">
-      <h2>Квитки</h2>
-      <form id="booking-form">
-        <label for="name">Ім'я:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="quantity">Кількість квитків:</label>
-        <input type="number" id="quantity" name="quantity" min="1" max="10" required>
-
-        <button type="submit">Забронювати</button>
-        <p class="confirmation-message" style="display: none">Дякуємо за бронювання!</p>
-      </form>
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title animate-slide-in">Про подію</h2>
+        <p class="section-text animate-slide-in delay-1">
+          Цього року на сцені найкращі виконавці з усієї України та світу. Приготуйся до вибуху емоцій, драйву та незабутніх моментів!
+        </p>
+        <p class="section-text animate-slide-in delay-2">
+          Фестиваль проходитиме на відкритому просторі з великими можливостями для фанів і відпочинку.
+        </p>
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Контакти</h2>
-      <p>Зв'язок: <a href="mailto:info@musicfest2025.com">info@musicfest2025.com</a></p>
+    <section id="gallery" class="gallery section">
+      <div class="container">
+        <h2 class="section-title animate-fade-in">Галерея</h2>
+        <div class="gallery-grid animate-fade-in delay-1">
+          <img src="images/photo1.jpg" alt="Сцена фестивалю" loading="lazy" />
+          <img src="images/photo2.jpg" alt="Глядачі на фестивалі" loading="lazy" />
+          <img src="images/photo3.jpg" alt="Музиканти на сцені" loading="lazy" />
+          <img src="images/photo4.jpg" alt="Вогняне шоу" loading="lazy" />
+          <img src="images/photo5.jpg" alt="Публіка в захваті" loading="lazy" />
+          <img src="images/photo6.jpg" alt="Фестиваль ночі" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section id="tickets" class="tickets section">
+      <div class="container">
+        <h2 class="section-title animate-slide-in">Квитки</h2>
+        <form id="booking-form" class="booking-form animate-slide-in delay-1" onsubmit="handleBooking(event)">
+          <label for="name">Ім'я:</label>
+          <input type="text" id="name" name="name" required placeholder="Ваше ім'я" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="example@mail.com" />
+
+          <label for="quantity">Кількість квитків:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10" required />
+
+          <button type="submit" class="btn btn-primary">Забронювати</button>
+
+          <p class="confirmation-message" role="alert" aria-live="polite" style="display:none;">
+            Дякуємо за бронювання! Ми зв’яжемося з вами найближчим часом.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section-title animate-fade-in">Контакти</h2>
+        <p>Пишіть нам: <a href="mailto:info@concertfestival2025.com">info@concertfestival2025.com</a></p>
+        <p>Телефон: <a href="tel:+380501234567">+38 050 123 45 67</a></p>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 MusicFest. Усі права захищено.</p>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Концертний Фестиваль. Всі права захищено.</p>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
