@@ -1,80 +1,69 @@
-
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Літній Музичний Фестиваль 2025 – найяскравіша подія року з концертами, їжею та розвагами!">
+  <meta name="keywords" content="фестиваль, музика, концерт, літо 2025, квитки, розваги">
+  <meta property="og:title" content="Літній Музичний Фестиваль 2025">
+  <meta property="og:description" content="Придбай квитки на яскраву подію літа – музика, їжа, позитив і емоції!">
+  <meta property="og:image" content="images/banner.jpg">
+  <meta property="og:url" content="https://yourusername.github.io/musicfest2025">
   <title>Літній Музичний Фестиваль 2025</title>
-  <meta name="description" content="Фантастичний літній фестиваль 2025: музика, шоу, емоції!">
-  <meta name="keywords" content="фестиваль, музика, літо, шоу, концерт, Kalush, Monatik">
-  <meta property="og:title" content="Літній Музичний Фестиваль 2025" />
-  <meta property="og:description" content="Долучайся до найбільшого музичного свята цього літа!" />
-  <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Music+Fest+2025" />
-  <meta property="og:url" content="https://yourusername.github.io/musicfest2025/" />
-  <meta name="author" content="MusicFest Team">
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-text">
-      <h1>Літній Музичний Фестиваль 2025</h1>
-      <p>Музика. Енергія. Натхнення.</p>
-      <a href="#tickets" class="btn">Купити квиток</a>
-    </div>
+  <header>
+    <h1 class="fade-in">Літній Музичний Фестиваль 2025</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Про фестиваль</a></li>
+        <li><a href="#gallery">Галерея</a></li>
+        <li><a href="#tickets">Квитки</a></li>
+        <li><a href="#contact">Контакти</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav class="navbar">
-    <ul>
-      <li><a href="#about">Про фестиваль</a></li>
-      <li><a href="#lineup">Виконавці</a></li>
-      <li><a href="#gallery">Галерея</a></li>
-      <li><a href="#tickets">Квитки</a></li>
-    </ul>
-  </nav>
-
   <main>
-    <section id="about" class="section fade-in">
+    <section id="about">
       <h2>Про фестиваль</h2>
-      <p>Приєднуйтесь до найбільшого музичного заходу року! Три дні живої музики, шоу, фудкорту та неймовірної атмосфери.</p>
+      <p>Приходьте на грандіозний музичний фестиваль під відкритим небом! На вас чекають найпопулярніші гурти, яскрава атмосфера, зона фуд-корту та море вражень!</p>
     </section>
 
-    <section id="lineup" class="section slide-in">
-      <h2>Хедлайнери</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Monatik</h3>
-          <p>Танцювальні хіти та драйв на сцені!</p>
-        </div>
-        <div class="card">
-          <h3>Kalush Orchestra</h3>
-          <p>Український фольк з сучасним ритмом.</p>
-        </div>
-        <div class="card">
-          <h3>Wellboy</h3>
-          <p>Харизматичний стиль та улюблені пісні.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="gallery" class="section fade-in">
+    <section id="gallery">
       <h2>Галерея</h2>
       <div class="gallery">
-        <img src="https://via.placeholder.com/300x200?text=Сцена" alt="Сцена фестивалю" loading="lazy">
-        <img src="https://via.placeholder.com/300x200?text=Натовп" alt="Натовп" loading="lazy">
-        <img src="https://via.placeholder.com/300x200?text=Артисти" alt="Виконавці" loading="lazy">
+        <img src="images/photo1.jpg" alt="Сцена фестивалю" loading="lazy">
+        <img src="images/photo2.jpg" alt="Глядачі на фестивалі" loading="lazy">
+        <img src="images/photo3.jpg" alt="Музиканти на сцені" loading="lazy">
       </div>
     </section>
 
-    <section id="tickets" class="section zoom-in">
+    <section id="tickets">
       <h2>Квитки</h2>
-      <p>Замовляй заздалегідь! Кількість обмежена.</p>
-      <a href="#" class="btn">Придбати</a>
+      <form id="booking-form">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="quantity">Кількість квитків:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+
+        <button type="submit">Забронювати</button>
+        <p class="confirmation-message" style="display: none">Дякуємо за бронювання!</p>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Контакти</h2>
+      <p>Зв'язок: <a href="mailto:info@musicfest2025.com">info@musicfest2025.com</a></p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 MusicFest. Всі права захищено.</p>
+    <p>&copy; 2025 MusicFest. Усі права захищено.</p>
   </footer>
-</body>
-</html>
