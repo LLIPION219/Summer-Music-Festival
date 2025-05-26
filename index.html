@@ -1,109 +1,52 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Космічна подорож 3025 | Відкрий Галактику</title>
-  <meta name="description" content="Захоплива подорож галактикою 3025 року. Відкрий нові світи!" />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Космічний Всесвіт — Галактики і Планети</title>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header class="header">
-  <div class="container">
-    <h1 class="logo neon-text">Космічна подорож 3025</h1>
-    <nav>
-      <ul class="nav-list">
-        <li><a href="#home" class="nav-link">Головна</a></li>
-        <li><a href="#routes" class="nav-link">Маршрути</a></li>
-        <li><a href="#crew" class="nav-link">Команда</a></li>
-        <li><a href="#gallery" class="nav-link">Галерея</a></li>
-        <li><a href="#contact" class="nav-link">Контакти</a></li>
-      </ul>
-    </nav>
-  </div>
+<header role="banner">
+  <h1>Космічний Всесвіт</h1>
+  <p>Галактики, планети, зорі — вражаюча краса нескінченності</p>
 </header>
 
-<main>
+<main role="main">
 
-  <section id="home" class="hero">
-    <div class="container hero-content">
-      <h2 class="neon-text hero-title animate-fade-in">Відкрий Галактику!</h2>
-      <p class="hero-subtitle animate-fade-in delay-1">Підкорюй нові світи разом із нами у космічній подорожі 3025 року.</p>
-      <a href="#contact" class="btn btn-neon animate-fade-in delay-2">Зв’язатися з нами</a>
-    </div>
+  <section aria-labelledby="intro-title">
+    <h2 id="intro-title">Про космос</h2>
+    <p>Космос – це нескінченна мандрівка між зірками та галактиками, де приховано безліч таємниць та чудес. З давніх часів люди мріяли пізнати цей величний простір.</p>
+    <p>Сьогодні ми можемо милуватися дивовижними знімками планет, туманностей і далекого космосу, створеними телескопами та космічними апаратами.</p>
   </section>
 
-  <section id="routes" class="section">
-    <div class="container">
-      <h2 class="section-title neon-text">Наші маршрути</h2>
-      <ul class="routes-list">
-        <li><strong>Зоряний шлях Альфа:</strong> Відкрийте систему Альфа Центавра – найближчі зорі до Землі.</li>
-        <li><strong>Туманність Оріона:</strong> Відчуйте магію зоряного народження у космічній хмарі.</li>
-        <li><strong>Чумацький шлях:</strong> Круїз уздовж нашої галактики з вражаючими видами.</li>
-      </ul>
-    </div>
+  <section aria-labelledby="planets-title">
+    <h2 id="planets-title">Планети Сонячної системи</h2>
+    <p>Від Меркурія до Нептуна – кожна планета унікальна. Деякі мають атмосфери, інші вкриті льодом або вулканами. Вивчення їх допомагає зрозуміти, як утворився Всесвіт.</p>
   </section>
 
-  <section id="crew" class="section">
-    <div class="container">
-      <h2 class="section-title neon-text">Наша команда</h2>
-      <div class="crew-grid">
-        <article class="crew-member">
-          <img src="https://images.unsplash.com/photo-1532074205216-d0e1f8d6f6db?auto=format&fit=crop&w=300&q=80" alt="Капітан Лана Вега" />
-          <h3>Капітан Лана Вега</h3>
-          <p>Досвідчений космічний мандрівник та експерт з міжзоряних подорожей.</p>
-        </article>
-        <article class="crew-member">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=300&q=80" alt="Інженер Макс Оріон" />
-          <h3>Інженер Макс Оріон</h3>
-          <p>Відповідає за безпеку зорельота і підтримку систем в ідеальному стані.</p>
-        </article>
-        <article class="crew-member">
-          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=300&q=80" alt="Вчена Софія Космо" />
-          <h3>Вчена Софія Космо</h3>
-          <p>Вивчає нові планети і формує експедиції.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="gallery" class="section">
-    <div class="container">
-      <h2 class="section-title neon-text">Галерея космічних світів</h2>
-      <div class="gallery-grid">
-        <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=400&q=80" alt="Галактика" />
-        <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=400&q=80" alt="Зоряне небо" />
-        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80" alt="Планета Земля" />
-        <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=400&q=80" alt="Туманність" />
-        <img src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=400&q=80" alt="Космонавт" />
-        <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=400&q=80" alt="Космічний корабель" />
-        <img src="https://images.unsplash.com/photo-1518976024611-49a9fdbdd999?auto=format&fit=crop&w=400&q=80" alt="Зоряна система" />
-        <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=400&q=80" alt="Космос і планети" />
-        <img src="https://images.unsplash.com/photo-1519222970733-f546218fa6d7?auto=format&fit=crop&w=400&q=80" alt="Туманності" />
-        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=400&q=80" alt="Чумацький шлях" />
-        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=400&q=80" alt="Космічна станція" />
-        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Планети на орбіті" />
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="section contact-section">
-    <div class="container">
-      <h2 class="section-title neon-text">Зв’язатися з нами</h2>
-      <p>Напишіть нам на email: <a href="mailto:space3025@example.com" class="link-neon">space3025@example.com</a></p>
-      <p>Або зателефонуйте: <a href="tel:+380123456789" class="link-neon">+38 012 345 67 89</a></p>
+  <section aria-labelledby="gallery-title">
+    <h2 id="gallery-title">Галерея космічних фото</h2>
+    <div class="gallery" aria-label="Галерея космічних фотографій">
+      <img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1478&q=80" alt="Сатурн з кільцями" />
+      <img src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80" alt="Планета Юпітер" />
+      <img src="https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1478&q=80" alt="Туманність Орел" />
+      <img src="https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1450&q=80" alt="Туманність Кільце" />
+      <img src="https://images.unsplash.com/photo-1457365050282-c53f772f4c3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Планета Сатурн з детальними кільцями" />
+      <img src="https://images.unsplash.com/photo-1506443432602-ac2fcd6f54e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Зоряний простір" />
+      <img src="https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Планета Марс" />
+      <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1350&q=80" alt="Галактика Чумацький Шлях" />
+      <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Зоряне небо" />
+      <img src="https://images.unsplash.com/photo-1462331940025-efbba5b1b390?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1350&q=80" alt="Планети Сонячної системи" />
     </div>
   </section>
 
 </main>
 
-<footer class="footer">
-  <div class="container">
-    <p>© 3025 Космічна подорож. Всі права захищені.</p>
-  </div>
+<footer role="contentinfo">
+  © 2025 Космічний Всесвіт. Всі права захищені.
 </footer>
 
- </body>
+</body>
 </html>
