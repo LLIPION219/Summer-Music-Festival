@@ -3,21 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Концертний Фестиваль 2025 | Відчуй Магію Музики</title>
-  <meta name="description" content="Найгарячіший концертний фестиваль 2025 року — сцена, музиканти, драйв і незабутні емоції! Забронюй квитки вже сьогодні." />
-  <meta name="keywords" content="концерт, фестиваль, музика, квитки, шоу, подія, 2025" />
+  <title>Космічна подорож 3025 | Відкрий Галактику</title>
+  <meta name="description" content="Запрошуємо у захопливу мандрівку галактикою. Відкрий нові світи, стань капітаном зорельота та пізнай космос!" />
+  <meta name="keywords" content="космос, галактика, подорож, зореліт, футуризм, новини космосу" />
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <a href="#main-content" class="skip-link">Перейти до основного вмісту</a>
 
   <header class="header">
     <div class="container">
-      <h1 class="logo">Концертний Фестиваль 2025</h1>
+      <h1 class="logo neon-text">Космічна подорож 3025</h1>
       <nav>
         <ul class="nav-list">
-          <li><a href="#about">Про подію</a></li>
-          <li><a href="#gallery">Галерея</a></li>
-          <li><a href="#tickets">Квитки</a></li>
+          <li><a href="#home">Головна</a></li>
+          <li><a href="#routes">Маршрути</a></li>
+          <li><a href="#crew">Команда</a></li>
+          <li><a href="#subscribe">Підписка</a></li>
           <li><a href="#contact">Контакти</a></li>
         </ul>
       </nav>
@@ -25,76 +31,73 @@
   </header>
 
   <main id="main-content">
-    <section id="hero" class="hero">
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <h2 class="neon-text hero-title animate-fade-in">Відкрий Галактику!</h2>
+        <p class="hero-subtitle animate-fade-in delay-1">Підкорюй нові світи разом із нами у космічній подорожі 3025 року.</p>
+        <a href="#subscribe" class="btn btn-neon animate-fade-in delay-2">Підписатися на новини</a>
+      </div>
+      <canvas id="starfield"></canvas>
+    </section>
+
+    <section id="routes" class="section">
       <div class="container">
-        <h2 class="hero-title animate-fade-in">Відчуй Магію Музики</h2>
-        <p class="hero-text animate-fade-in delay-1">
-          Найгарячіший концертний фестиваль 2025 року. Музика, драйв і неймовірні емоції у твоєму місті!
-        </p>
-        <a href="#tickets" class="btn btn-primary animate-fade-in delay-2">Забронювати квитки</a>
+        <h2 class="section-title neon-text">Наші маршрути</h2>
+        <ul class="routes-list">
+          <li><strong>Зоряний шлях Альфа:</strong> Відкрийте систему Альфа Центавра – найближчі зорі до Землі.</li>
+          <li><strong>Туманність Оріона:</strong> Відчуйте магію зоряного народження у космічній хмарі.</li>
+          <li><strong>Чумацький шлях:</strong> Круїз уздовж нашої галактики з вражаючими видами.</li>
+        </ul>
       </div>
     </section>
 
-    <section id="about" class="about section">
+    <section id="crew" class="section">
       <div class="container">
-        <h2 class="section-title animate-slide-in">Про подію</h2>
-        <p class="section-text animate-slide-in delay-1">
-          Цього року на сцені найкращі виконавці з усієї України та світу. Приготуйся до вибуху емоцій, драйву та незабутніх моментів!
-        </p>
-        <p class="section-text animate-slide-in delay-2">
-          Фестиваль проходитиме на відкритому просторі з великими можливостями для фанів і відпочинку.
-        </p>
-      </div>
-    </section>
-
-    <section id="gallery" class="gallery section">
-      <div class="container">
-        <h2 class="section-title animate-fade-in">Галерея</h2>
-        <div class="gallery-grid animate-fade-in delay-1">
-          <img src="images/photo1.jpg" alt="Сцена фестивалю" loading="lazy" />
-          <img src="images/photo2.jpg" alt="Глядачі на фестивалі" loading="lazy" />
-          <img src="images/photo3.jpg" alt="Музиканти на сцені" loading="lazy" />
-          <img src="images/photo4.jpg" alt="Вогняне шоу" loading="lazy" />
-          <img src="images/photo5.jpg" alt="Публіка в захваті" loading="lazy" />
-          <img src="images/photo6.jpg" alt="Фестиваль ночі" loading="lazy" />
+        <h2 class="section-title neon-text">Наша команда</h2>
+        <div class="crew-grid">
+          <div class="crew-member">
+            <img src="images/captain.jpg" alt="Капітан зорельота" />
+            <h3>Капітан Лана Вега</h3>
+            <p>Досвідчений космічний мандрівник та експерт з міжзоряних подорожей.</p>
+          </div>
+          <div class="crew-member">
+            <img src="images/engineer.jpg" alt="Інженер" />
+            <h3>Інженер Макс Оріон</h3>
+            <p>Відповідає за безпеку зорельота і підтримку систем в ідеальному стані.</p>
+          </div>
+          <div class="crew-member">
+            <img src="images/scientist.jpg" alt="Вчений" />
+            <h3>Вчена Софія Космо</h3>
+            <p>Вивчає нові планети і формує експедиції.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="tickets" class="tickets section">
+    <section id="subscribe" class="section subscribe-section">
       <div class="container">
-        <h2 class="section-title animate-slide-in">Квитки</h2>
-        <form id="booking-form" class="booking-form animate-slide-in delay-1" onsubmit="handleBooking(event)">
-          <label for="name">Ім'я:</label>
-          <input type="text" id="name" name="name" required placeholder="Ваше ім'я" />
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required placeholder="example@mail.com" />
-
-          <label for="quantity">Кількість квитків:</label>
-          <input type="number" id="quantity" name="quantity" min="1" max="10" required />
-
-          <button type="submit" class="btn btn-primary">Забронювати</button>
-
-          <p class="confirmation-message" role="alert" aria-live="polite" style="display:none;">
-            Дякуємо за бронювання! Ми зв’яжемося з вами найближчим часом.
-          </p>
+        <h2 class="section-title neon-text">Підписка на космічні новини</h2>
+        <form id="subscribe-form" onsubmit="handleSubscribe(event)" class="subscribe-form">
+          <label for="email">Введіть ваш Email:</label>
+          <input type="email" id="email" name="email" placeholder="email@domain.com" required />
+          <button type="submit" class="btn btn-neon">Підписатися</button>
         </form>
+        <p id="subscribe-message" class="subscribe-message" aria-live="polite"></p>
       </div>
     </section>
 
-    <section id="contact" class="contact section">
+    <section id="contact" class="section">
       <div class="container">
-        <h2 class="section-title animate-fade-in">Контакти</h2>
-        <p>Пишіть нам: <a href="mailto:info@concertfestival2025.com">info@concertfestival2025.com</a></p>
-        <p>Телефон: <a href="tel:+380501234567">+38 050 123 45 67</a></p>
+        <h2 class="section-title neon-text">Контакти</h2>
+        <p>Пишіть нам: <a href="mailto:space@cosmos3025.com" class="link">space@cosmos3025.com</a></p>
+        <p>Телефон: <a href="tel:+380501112233" class="link">+38 050 111 22 33</a></p>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2025 Концертний Фестиваль. Всі права захищено.</p>
+      <p>&copy; 3025 Космічна подорож. Всі права захищено.</p>
     </div>
   </footer>
 
